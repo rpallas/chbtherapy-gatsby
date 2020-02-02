@@ -23,9 +23,11 @@
 }
 
 .PageHeader--ImgAttr {
-  font-weight: 400;
-  font-size: 1rem;
-  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  font-size: 1.2rem;
+  /* float: right; */
 }
 
 .PageHeader .container {
