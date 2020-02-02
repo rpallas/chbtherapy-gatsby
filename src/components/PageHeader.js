@@ -30,10 +30,10 @@ const PageHeader = ({
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
-        {imgAttr && (
-          <Content className="PageHeader--ImgAttr" src={imgAttr} />
-        )}
       </div>
+      {imgAttr && (
+        <Content className="PageHeader--ImgAttr" src={imgAttr} />
+      )}
     </div>
   )
 }
