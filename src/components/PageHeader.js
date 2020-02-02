@@ -8,6 +8,7 @@ import './PageHeader.css'
 const PageHeader = ({
   title,
   subtitle,
+  imgAttr,
   backgroundImage,
   large,
   className = ''
@@ -29,6 +30,9 @@ const PageHeader = ({
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
+        {imgAttr && (
+          <Content className="PageHeader--ImgAttr" src={imgAttr} />
+        )}
       </div>
     </div>
   )
@@ -36,7 +40,8 @@ const PageHeader = ({
 
 PageHeader.propTypes = {
   title: PropTypes.string,
-  subtitle: PropTypes.string
+  subtitle: PropTypes.string,
+  imgAttr: PropTypes.string
 }
 
 export default PageHeader
