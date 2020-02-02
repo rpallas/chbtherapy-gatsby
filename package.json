@@ -1,11 +1,11 @@
 {
-  "name": "yellowcake",
-  "HomePage": "https://yellowcake.netlify.com/",
-  "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
+  "name": "chbtherapy",
+  "HomePage": "https://chbtherapy.netlify.com/",
+  "description": "chbtherapy.co.uk website",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thriveweb/yellowcake"
+    "url": "https://github.com/rpallas/chbtherapy-gatsby"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
@@ -46,7 +46,7 @@
     "react-photoswipe": "^1.3.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby", "chbtherapy", "reflexology"
   ],
   "license": "MIT",
   "main": "n/a",
